@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Damageable
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Ground
   - 
   - 
   - 
@@ -50,9 +51,15 @@ TagManager:
   - name: Character
     uniqueID: 2593459159
     locked: 0
+  - name: Water
+    uniqueID: 4294524035
+    locked: 0
   - name: Ground
     uniqueID: 1211340517
     locked: 0
   - name: TopLevel
     uniqueID: 312124587
+    locked: 0
+  - name: UISprites
+    uniqueID: 3184707159
     locked: 0
