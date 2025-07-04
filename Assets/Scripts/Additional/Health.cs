@@ -51,7 +51,7 @@ namespace Additional
             if (!_isAlive) return;
         
             _currentHealth = _currentHealth + points > maxHealth ? maxHealth : (_currentHealth + points);
-            
+
             if (healthBarFill != null)
                 UpdateHealthBar();
         }

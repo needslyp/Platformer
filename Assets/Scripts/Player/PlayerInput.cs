@@ -1,6 +1,5 @@
 using Additional;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Player
 {
