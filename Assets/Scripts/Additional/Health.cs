@@ -43,7 +43,10 @@ namespace Additional
             
             _isAlive = false;
             anim.SetBool(IsDead, true);
-            _messageScript.ShowMessage("СМЕРТЬ");
+            if (_messageScript)
+            {
+                _messageScript.ShowMessage("СМЕРТЬ");
+            }
         }
         
         public void TakeHeal(float points)
